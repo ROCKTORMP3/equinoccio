@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ROCKTOR — 3YE & Svādhisthāna</title>
+  <meta name="description" content="Universo Rocktor: música, libro El Evangelio del Vacío y merch." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <header class="wrap">
+    <div class="brand">
+      <div class="logo-glow">ROΓЖTOЯ</div>
+      <small>multiverso • música • libro • ritual</small>
+    </div>
+    <nav class="nav">
+      <a href="#music">Música</a>
+      <a href="#book">Libro</a>
+      <a href="#merch">Merch</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>3YE está vivo</h1>
+      <p>Primera puerta del universo Rocktor. Próximo salto: <strong>Svādhisthāna</strong>.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#" id="spotifyLink" target="_blank" rel="noopener">Escuchar</a>
+        <a class="btn ghost" href="#book">El Evangelio del Vacío</a>
+      </div>
+    </section>
+
+    <section id="music" class="card">
+      <h2>Visuales y Loops</h2>
+      <p>Descarga visuales en loop para shows y fondos.</p>
+      <a class="btn" href="#" id="ytVisuals" target="_blank" rel="noopener">YouTube / Visual</a>
+    </section>
+
+    <section id="book" class="card">
+      <h2>El Evangelio del Vacío</h2>
+      <p>Un manifiesto para encender la chispa creadora: del silencio al fuego.</p>
+      <div class="cta-row">
+        <a class="btn" href="#" id="samplePDF" target="_blank" rel="noopener">Leer adelanto (PDF)</a>
+        <a class="btn ghost" href="#contact">Avisarme el lanzamiento</a>
+      </div>
+    </section>
+
+    <section id="merch" class="card">
+      <h2>Merch ritual</h2>
+      <ul class="grid">
+        <li>Hoodie Rocktor (ed. luminiscente)</li>
+        <li>Vela + incienso (pack lectura)</li>
+        <li>Vinilo 3YE / Cassette</li>
+      </ul>
+      <a class="btn" href="#" id="storeLink" target="_blank" rel="noopener">Entrar a la tienda</a>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contacto</h2>
+      <p>¿Prensa, colaboraciones o shows? Escríbeme.</p>
+      <a class="btn" href="mailto:contacto@tucorreo.com">contacto@tucorreo.com</a>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <small>© <span id="y"></span> ROCKTOR · Todos los ritos reservados</small>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
